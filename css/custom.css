@@ -1,0 +1,16 @@
+.bg-image {
+    background-image: url("../img/banner-bg.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-services {
+    background-image: url("../img/services-bg.jpg");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
