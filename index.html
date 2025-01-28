@@ -10,13 +10,15 @@
   <link rel="stylesheet" href="css/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="fonts/Roboto-BlackItalic.ttf">
+  <link rel="stylesheet" href="css/aos.css">
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/bootstrap.bundle.min.js.map"></script>
   <script src="js/splide.min.js"></script>
   <script src="js/aos.js"></script>
 </head>
 
-<body>
+<body class="font-roboto">
   <div class="bg-image py-5">
     <div class="container-lg">
       <nav class="navbar navbar-expand-sm navbar-dark bg-white shadow-sm py-0" aria-label="Navbar">
@@ -53,12 +55,12 @@
       </nav>
       <br><br><br><br>
       <div class="text-center text-white  ">
-        <div class="pt-5 text-uppercase text-center text-white h5 mt-5">designed with love</div>
-        <div class="p-1 text-uppercase text-center h1 fw-bold text-white m-4 display-1">the power theme</div>
+        <div class="pt-5 text-uppercase text-center text-white h5 mt-5" data-aos="fade-down">designed with love</div>
+        <div class="p-1 text-uppercase text-center h1 fw-bold text-white m-4 display-1" data-aos="fade-up">the power theme</div>
         <div class="text-center p-5">
           <div class="mt-5">
-            <button class="btn text-uppercase bg-info text-bg-light text-white fs-4 fw-semibold rounded-0 me-2">download now</button>
-            <button class="btn text-uppercase bg-danger text-bg-light text-white fs-4 fw-semibold rounded-0 me-2">more details</button>
+            <button class="btn text-uppercase bg-info text-bg-light text-white fs-4 fw-semibold rounded-0 me-2" data-aos="fade-right">download now</button>
+            <button class="btn text-uppercase bg-danger text-bg-light text-white fs-4 fw-semibold rounded-0 me-2" data-aos="fade-left">more details</button>
           </div>
         </div>
         <br><br><br><br><br>
@@ -110,7 +112,7 @@
         </div>
       </div>
       <div class="row row-cols-3 row-cols-md-4 row-cols-lg-5  g-10">
-        <button class="btn btng">
+        <button class="btn btng" data-aos="fade-up">
           <div class="col">
             <div class="bg-secondary bg-opacity-25 py-5">
               <div class="my-2 text-center">
@@ -120,7 +122,7 @@
             </div>
           </div>
         </button>
-        <button class="btn btng">
+        <button class="btn btng" data-aos="fade-left">
           <div class="col">
             <div class="bg-secondary bg-opacity-25 py-5">
               <div class="my-2 text-center">
@@ -130,7 +132,7 @@
             </div>
           </div>
         </button>
-        <button class="btn btng">
+        <button class="btn btng" data-aos="fade-down">
           <div class="col">
             <div class="bg-secondary bg-opacity-25 py-5">
               <div class="my-2 text-center">
@@ -140,7 +142,7 @@
             </div>
           </div>
         </button>
-        <button class="btn btng">
+        <button class="btn btng" data-aos="fade-right">
           <div class="col">
             <div class="bg-secondary bg-opacity-25 py-5">
               <div class="my-2 text-center">
@@ -150,7 +152,7 @@
             </div>
           </div>
         </button>
-        <button class="btn btng">
+        <button class="btn btng" data-aos="fade-up">
           <div class="col">
             <div class="bg-secondary bg-opacity-25 py-5">
               <div class="my-2 text-center">
@@ -333,4 +335,9 @@
       </div>
     </div>
   </div>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 </body>
